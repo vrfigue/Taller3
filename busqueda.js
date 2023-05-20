@@ -49,7 +49,7 @@ const alumnos = [
 */
 
 //const letras = ["a", "b", "c", "d"];
-/*
+
 // Con funciones por expresión
 console.log("--Con funciones por expresión---");
 const f = function () {
@@ -60,31 +60,3 @@ const f = function () {
 letras.forEach(f);
 
 console.log("--Con funciones anónimas---")
-
-/// Con funciones anónimas
-letras.forEach(function () {
-    console.log("Un elemento.");
-  });
-
-*/
-/*
-  console.log("--Con funciones flecha---");
-
-  // Con funciones flecha
-letras.forEach(() => console.log("Un elemento."));
-
-
-*/
-const letras = ["a", "b", "c", "d"];
-
-letras.forEach((elemento) => 
-    console.log(elemento)
-    ); 
-
-letras.forEach((elemento, index) => 
-    console.log(elemento, index)
-    ); 
-
-letras.forEach((elemento, i,array) => 
-    console.log(elemento, i, array)
-    ); 
